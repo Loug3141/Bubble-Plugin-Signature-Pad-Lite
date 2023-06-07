@@ -1,0 +1,61 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 300,
+        "width": 300
+    },
+    "display": "Signature Pad Lite",
+    "events": {
+        "AAW": {
+            "caption": "A Signature's Image is Saved to Bubble",
+            "doc": "Triggered when the image is saved to bubble.",
+            "name": "signature_saved"
+        }
+    },
+    "fields": {
+        "AAE": {
+            "caption": "stroke color",
+            "default_val": "rgba(55,55,55,1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "strokeColor",
+            "rank": 0
+        },
+        "AAF": {
+            "caption": "stroke min width",
+            "default_val": 1,
+            "editor": "DynamicValue",
+            "name": "strokeMinWidth",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "stroke max width",
+            "default_val": 4,
+            "editor": "DynamicValue",
+            "name": "strokeMaxWidth",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "icon": "ion-compose",
+    "property_applications": {
+        "Background": false,
+        "Border": true,
+        "BoxShadow": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAG": {
+            "caption": "signature_image",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\t\n\n}"
+            },
+            "name": "signature_image",
+            "value": "image"
+        }
+    }
+}
