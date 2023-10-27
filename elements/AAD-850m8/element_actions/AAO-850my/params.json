@@ -1,4 +1,15 @@
 {
     "caption": "Save PNG signature to bubble",
-    "doc": ""
+    "doc": "",
+    "fields": {
+        "AAX": {
+            "caption": "(optional) attach to",
+            "doc": "If you choose to attach the image to a bubble thing, it will become private, which means you'll be able to control access to it through privacy rules.",
+            "editor": "DynamicValue",
+            "name": "attach_to",
+            "optional": true,
+            "rank": 0,
+            "value": "_any_thing"
+        }
+    }
 }

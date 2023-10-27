@@ -1,5 +1,5 @@
 function(instance, properties, context) {
-
+    
 	let image = dataURLGen(instance.data.id, "image/svg+xml");
     context.uploadContent("signaturePad-"+Date.now()+".svg", image.split('base64,')[1], (err,url) => {
 
@@ -11,6 +11,6 @@ function(instance, properties, context) {
             instance.triggerEvent('signature_saved');
         }
 
-    })
+    }, properties.attach_to)
 
 }

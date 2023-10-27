@@ -11,6 +11,6 @@ function(instance, properties, context) {
             instance.triggerEvent('signature_saved');
         }
 
-    })
+    }, properties.attach_to)
 
 }
