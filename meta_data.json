@@ -3,11 +3,13 @@
         "0": "media",
         "1": "mobile"
     },
+    "data_tracked": false,
     "demo_page": "https://estare-plugins.bubbleapps.io/version-test/signing-pag-lite",
     "description": "Gives you a simple element that works as a signature pad. You can choose the color and width of the stroke, also save the image to wherever you'd like.",
     "image": "//s3.amazonaws.com/appforest_uf/f1680208839439x601364827189688600/icon.png",
     "license": "open_source",
     "link": "https://github.com/szimek/signature_pad",
     "name": "Signature Pad Lite",
-    "plugin_instructions": "Put the signing pad element in the page you desire and set the stroke color and with. You can set them dynamically if you want.\n\nYou can use the elements actions to save the generated signature or download it.\n\nSave or download your signature as PNG or SVG"
+    "plugin_instructions": "Put the signing pad element in the page you desire and set the stroke color and with. You can set them dynamically if you want.\n\nYou can use the elements actions to save the generated signature or download it.\n\nSave or download your signature as PNG or SVG",
+    "sa_node_version": 18
 }
